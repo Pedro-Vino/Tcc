@@ -34,6 +34,8 @@ header {
     border-radius: 20px;
     color: white;
     background-color: rgb(38, 149, 253);
+    cursor: pointer;
+    text-decoration: none;
 }
 .destaque{
     background-image: url(u0.png);
@@ -226,6 +228,7 @@ body#inicio{
 .log p{
     font-size: 18px;
     float: right;
+    text-decoration: none;
 }
 #icone{
     margin-right: 6%;
