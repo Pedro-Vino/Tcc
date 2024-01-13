@@ -20,7 +20,6 @@ header {
 .buton{
     display: flex;
     align-items: center;
-    background-color: black;
 }
 .buton button{
     display: flex;
