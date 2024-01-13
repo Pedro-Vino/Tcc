@@ -8,12 +8,10 @@ body {
 header {
     display: flex;
     justify-content: space-around;
-    background-color: blueviolet;
 }
 .logoo{
     display: flex;
     align-items: center;
-    background-color: aqua;
 }
 .logo{
     height: 30%;
@@ -39,7 +37,7 @@ header {
     background-color: rgb(38, 149, 253);
 }
 .destaque{
-    background-image: url(img/u0.png);
+    background-image: url(u0.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size:contain;
