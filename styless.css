@@ -301,11 +301,13 @@ body#cadas{
 .bol{
     border-radius: 50%;
     cursor: pointer;
+    background-color: white;
+    border: 1px solid black;
 }
 .bol img{
     width: 35px;
     height: auto;
-    border-radius: 45%;
+    border-radius: 50%;
 }
 
 
