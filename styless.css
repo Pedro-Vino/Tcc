@@ -292,6 +292,12 @@ body#cadas{
     text-align: center;
     align-items: center;
 }
+.nom1{
+    margin-right: 51%;
+}
+.nom{
+    margin-right: 55%;
+}
 .cria{
     margin-bottom: 10%;
 }
