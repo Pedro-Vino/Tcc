@@ -18,7 +18,7 @@ var pedregulho = document.getElementById("bolotinha").value;
         return false;
     }
     else{
-        window.alert("cadastro ok");
+        window.alert("Cadastro ok!");
         return true;
     }
 }
