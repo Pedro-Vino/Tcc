@@ -115,6 +115,7 @@ body{
 #pesquisa{
     display: none;
     position: absolute;
+    position: fixed;
     background-color: #fff;
     width: 400px;
     height: 400px;
