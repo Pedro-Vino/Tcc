@@ -1,49 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rethink+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <script type="text/javascript" src="script.js"></script>
-    <title>Build & Business</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+    <title>Barra lateral</title>
 </head>
+
 <body>
-    <header>
-        <div class="logoo">
-        <img src="2.png" alt="logo" class="logo">
-        <h1>Build & Business</h1>
+    <aside class="sidebar">
+        <header class="sidebar-header">
+                <a href="index.html"><img class="logo-img" src="2.png" alt="Logo"></a>
+        </header>
+        <nav>
+            <button>
+                <span>
+                    <i class="material-symbols-outlined"> home </i>
+                    <span>Home</span>
+                </span>
+            </button>
+            <button id="search">
+                <span>
+                    <i class="material-symbols-outlined"> search </i>
+                    <span>Pesquisar</span>
+                </span>
+            </button>
+            <button>
+                <span>
+                    <i class="material-symbols-outlined"> tag </i>
+                    <span>Explorar</span>
+                </span>
+            </button>
+            <button>
+                <span>
+                    <i class="material-symbols-outlined"> email </i>
+                    <span>Mensagens</span>
+                </span>
+            </button>
+            <button>
+                <span>
+                    <i class="material-symbols-outlined"> person </i>
+                    <span>Perfil</span>
+                </span>
+            </button>
+            <div class="config">
+                <button>
+                    <span>
+                        <i class="material-symbols-outlined"> settings </i>
+                        <span>Configurações</span>
+                    </span>
+                </button>
+            </div>
+        </nav>
+    </aside>
+    <main class="main">
+        <H1 class="title">Build & Business</H1>
+        <div id="pesquisa">
+            <div class="searchh">
+                <i class="material-symbols-outlined"> search </i>
+                <input type="text" id="txtBusca" placeholder="Buscar..." onkeyup="search()">
+            </div>
+            
+            <ul>
+                <li class="categorias"><a href="">Arquitetura Residencial</a></li>
+                <li class="categorias"><a href="">Arquitetura Comercial</a></li>
+                <li class="categorias"><a href="">Designer de Interiores</a></li>
+                <li class="categorias"><a href="">Designer Industrial</a></li>
+                <li class="categorias"><a href="">Engenheiro Civil</a></li>
+            </ul>
         </div>
-        <div class="buton">
-            <button>Contratar</button>
-            <button>Meu perfil</button>
-            <a href="inicio.html"><button id="btentrar">Entrar</button></a>
-        </div>
-    </header>
-    <div class="destaque">
-        <!--<img src="img/u0.png" alt="Casa aleatória"> -->
-        <div class="busca">
-            <div id="divBusca">
-                <img src="lupa.png" alt="LupaPesquisa" class="lupa">
-            <input type="text" id="txtBusca" placeholder="Pesquise por criações"/>
-            <div class= "vertical"></div>
-            <button id="btnBusca">Buscar</button>
-            <button id="btnBusca">Buscar</button>
-            <button id="btnBusca">Buscar</button>
-            <button id="btnBusca">Buscar</button>
+        <img class="banner" src="u0.png" alt="Banner"/>
+        <div class="projs">
+            <div class="proj">
+                <p>salve</p>
+            </div>
+            <div class="proj">
+                <p>salve</p>
+            </div>
+            <div class="proj">
+                <p>salve</p>
+            </div>
+            <div class="proj">
+                <p>salve</p>
+            </div>
+            <div class="proj">
+                <p>salve</p>
             </div>
         </div>
-    </div>
+        <div class="projs">
+            <div class="proj">
+                <p>salve</p>
+            </div>
+            <div class="proj">
+                <p>salve</p>
+            </div>
+            <div class="proj">
+                <p>salve</p>
+            </div>
+            <div class="proj">
+                <p>salve</p>
+            </div>
+            <div class="proj">
+                <p>salve</p>
+            </div>
+        </div>
+        <div class="projs">
+            <div class="proj">
+                <p>salve</p>
+            </div>
+            <div class="proj">
+                <p>salve</p>
+            </div>
+            <div class="proj">
+                <p>salve</p>
+            </div>
+            <div class="proj">
+                <p>salve</p>
+            </div>
+            <div class="proj">
+                <p>salve</p>
+            </div>
+        </div>
+        <div class="projs">
+            <div class="proj">
+                <p>salve</p>
+            </div>
+            <div class="proj">
+                <p>salve</p>
+            </div>
+            <div class="proj">
+                <p>salve</p>
+            </div>
+            <div class="proj">
+                <p>salve</p>
+            </div>
+            <div class="proj">
+                <p>salve</p>
+            </div>
+        </div>
 
-    <div class="proj">
-        <div class="as"><h2>1</h2></div>
-        <div class="as"><h2>2</h2></div>
-        <div class="as"><h2>3</h2></div>
-        <div class="as"><h2>4</h2></div>
-        <div class="as"><h2>5</h2></div>
-        <div class="as"><h2>6</h2></div>
-    </div>
+        
+    </main>
 </body>
+
 </html>
